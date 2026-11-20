@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .DS_Store
+# full-size PSDs are rebuilt by build.py; the repo carries the zipped copies
+out/*.psd

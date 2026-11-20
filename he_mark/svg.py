@@ -44,7 +44,8 @@ def contours_path(contours) -> str:
 
 
 def _slug(name: str) -> str:
-    return "".join(ch if ch.isalnum() else "-" for ch in name).strip("-").lower()
+    # Pixelmator Pro shows an SVG element's id as its layer name, so keep it readable
+    return "".join(ch if ch.isalnum() else "-" for ch in name).strip("-")
 
 
 def to_svg(items: list[dict], width: float, height: float, title: str = "", background: str | None = None) -> str:

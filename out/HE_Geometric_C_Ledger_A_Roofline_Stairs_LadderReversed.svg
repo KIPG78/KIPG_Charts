@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 3000" width="2000" height="3000">
+  <title>HE mark, reversed ladder (Rungs: separate equilateral triangles)</title>
+  <path id="Oval" fill="#1B2538" fill-rule="nonzero" d="M100,1500 A900,1400 0 1 1 1900,1500 A900,1400 0 1 1 100,1500 Z"/>
+  <g id="Lower-ladder">
+    <path id="Lower-rung-4" fill="#F3F2EE" fill-rule="nonzero" d="M1000,2245.0959 L1259.0683,2693.8153 L740.9317,2693.8153 Z"/>
+    <path id="Lower-rung-3" fill="#F3F2EE" fill-rule="nonzero" d="M1000,1871.163 L1172.7122,2170.3093 L827.2878,2170.3093 Z"/>
+    <path id="Lower-rung-2" fill="#F3F2EE" fill-rule="nonzero" d="M1000,1621.8744 L1115.1415,1821.3053 L884.8585,1821.3053 Z"/>
+    <path id="Lower-rung-1" fill="#F3F2EE" fill-rule="nonzero" d="M1000,1455.682 L1076.761,1588.6359 L923.239,1588.6359 Z"/>
+  </g>
+  <g id="Upper-ladder">
+    <path id="Upper-rung-4" fill="#F3F2EE" fill-rule="nonzero" d="M740.9317,306.1847 L1259.0683,306.1847 L1000,754.9041 Z"/>
+    <path id="Upper-rung-3" fill="#F3F2EE" fill-rule="nonzero" d="M827.2878,829.6907 L1172.7122,829.6907 L1000,1128.837 Z"/>
+    <path id="Upper-rung-2" fill="#F3F2EE" fill-rule="nonzero" d="M884.8585,1178.6947 L1115.1415,1178.6947 L1000,1378.1256 Z"/>
+    <path id="Upper-rung-1" fill="#F3F2EE" fill-rule="nonzero" d="M923.239,1411.3641 L1076.761,1411.3641 L1000,1544.318 Z"/>
+  </g>
+  <path id="Crossing" fill="#911D0F" fill-rule="nonzero" d="M1000,1455.682 L1025.587,1500 L1000,1544.318 L974.413,1500 Z"/>
+</svg>

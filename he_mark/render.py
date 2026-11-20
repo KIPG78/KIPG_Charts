@@ -69,7 +69,8 @@ def _band(args):
 
 def render_psd(items: list[dict], width: int, height: int, path: str, *, ss: int = 16,
                band: int = 48, ppi: float = 300.0, workers: int | None = None,
-               tmpdir: str | None = None, progress: bool = True) -> dict:
+               tmpdir: str | None = None, progress: bool = True,
+               thumbnail: tuple[bytes, int, int] | None = None) -> dict:
     layers = flatten(items)
     for layer in layers:
         layer["bbox"] = shape_bbox(layer["contours"], width, height)
@@ -99,8 +100,10 @@ def render_psd(items: list[dict], width: int, height: int, path: str, *, ss: int
                 handles[idx].add_encoded_rows(rows)
             for c in range(4):
                 doc.add_merged_rows(c, merged[c])
-            if progress and (n % max(1, len(bands) // 20) == 0 or n == len(bands) - 1):
+            if progress and (n % max(1, len(bands) // 5) == 0 or n == len(bands) - 1):
                 print(f"  band {n + 1}/{len(bands)}  rows {y1}/{height}  {time.time() - t0:.0f}s", flush=True)
+    if thumbnail:
+        doc.set_thumbnail(*thumbnail)
     size = doc.save(path)
     return {"path": path, "bytes": size, "seconds": time.time() - t0, "width": width, "height": height,
             "layers": [{"name": l["name"], "bbox": l["bbox"]} for l in layers]}

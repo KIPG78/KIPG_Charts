@@ -1,0 +1,181 @@
+{
+  "file": "out/HE_Geometric_C_Ledger_A_Roofline_Stairs_LadderReversed_16380px.psd",
+  "checks": {
+    "header: 8BPS v1, RGB, 8-bit, 4 channels": true,
+    "resources 1005 / 1036 / 1039 / 1057 present": true,
+    "resolution is 300 ppi": true,
+    "layer names and order match the design": true,
+    "two folders: Lower ladder, Upper ladder": true,
+    "all layers visible, normal blend, 100% opacity": true,
+    "flattened alpha equals the design (within 1 level of 255)": true,
+    "transparent pixels are white (Photoshop matte)": true,
+    "every palette colour appears in the flattened picture": true,
+    "mirror-symmetric left/right and top/bottom, all four channels (within 1 level)": true,
+    "every layer is one flat colour, the specified one": true,
+    "every layer's alpha equals the design (within 1 level)": true,
+    "layers recomposite to the stored flattened picture at full resolution (within 1 level)": true
+  },
+  "canvas_px": [
+    10920,
+    16380
+  ],
+  "megapixels": 178.9,
+  "tree": [
+    "pixel: Oval",
+    "group: Lower ladder",
+    "  pixel: Lower rung 4",
+    "  pixel: Lower rung 3",
+    "  pixel: Lower rung 2",
+    "  pixel: Lower rung 1",
+    "group: Upper ladder",
+    "  pixel: Upper rung 4",
+    "  pixel: Upper rung 3",
+    "  pixel: Upper rung 2",
+    "  pixel: Upper rung 1",
+    "pixel: Crossing"
+  ],
+  "shrink_factor": 7,
+  "compared_at_px": [
+    1560,
+    2340
+  ],
+  "flattened_alpha_vs_design_max_diff_levels": 0.273,
+  "flattened_colour_vs_coarse_composite": {
+    "max_diff_levels": 0.276,
+    "coarse_pixels_over_1_level": 0,
+    "note": "informational: a coarse composite is less accurate than the file where three layer edges meet"
+  },
+  "mirror_max_diff_levels": {
+    "left_right": 0,
+    "top_bottom": 0
+  },
+  "layers": [
+    {
+      "layer": "Oval",
+      "bounds_ltrb": [
+        546,
+        546,
+        10374,
+        15834
+      ],
+      "colour": "#1B2538",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.273
+    },
+    {
+      "layer": "Lower rung 4",
+      "bounds_ltrb": [
+        4045,
+        12258,
+        6875,
+        14709
+      ],
+      "colour": "#F3F2EE",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.05
+    },
+    {
+      "layer": "Lower rung 3",
+      "bounds_ltrb": [
+        4516,
+        10216,
+        6404,
+        11850
+      ],
+      "colour": "#F3F2EE",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.057
+    },
+    {
+      "layer": "Lower rung 2",
+      "bounds_ltrb": [
+        4831,
+        8855,
+        6089,
+        9945
+      ],
+      "colour": "#F3F2EE",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.048
+    },
+    {
+      "layer": "Lower rung 1",
+      "bounds_ltrb": [
+        5040,
+        7948,
+        5880,
+        8674
+      ],
+      "colour": "#F3F2EE",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.047
+    },
+    {
+      "layer": "Upper rung 4",
+      "bounds_ltrb": [
+        4045,
+        1671,
+        6875,
+        4122
+      ],
+      "colour": "#F3F2EE",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.05
+    },
+    {
+      "layer": "Upper rung 3",
+      "bounds_ltrb": [
+        4516,
+        4530,
+        6404,
+        6164
+      ],
+      "colour": "#F3F2EE",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.057
+    },
+    {
+      "layer": "Upper rung 2",
+      "bounds_ltrb": [
+        4831,
+        6435,
+        6089,
+        7525
+      ],
+      "colour": "#F3F2EE",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.048
+    },
+    {
+      "layer": "Upper rung 1",
+      "bounds_ltrb": [
+        5040,
+        7706,
+        5880,
+        8432
+      ],
+      "colour": "#F3F2EE",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.047
+    },
+    {
+      "layer": "Crossing",
+      "bounds_ltrb": [
+        5320,
+        7948,
+        5600,
+        8432
+      ],
+      "colour": "#911D0F",
+      "flat_colour": true,
+      "alpha_vs_design_max_diff": 0.047
+    }
+  ],
+  "layers_recomposited_at_full_resolution_vs_flattened": {
+    "max_diff_levels": 0,
+    "pixels_over_1_level": 0,
+    "pixels_compared": 178869600
+  },
+  "passed": true,
+  "seconds": 29.4
+}
